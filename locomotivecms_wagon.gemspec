@@ -25,6 +25,8 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'thin',                  '~> 1.6.3'
   gem.add_dependency 'rubyzip',               '~> 1.1.7'
   gem.add_dependency 'netrc',                 '~> 0.10.3'
+  
+  gem.add_dependency 'dotenv',                 '~> 2.1.1'
 
   gem.add_dependency 'locomotivecms_common',  '~> 0.2.0'
   gem.add_dependency 'locomotivecms_coal',    '~> 1.2.0'

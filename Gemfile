@@ -5,8 +5,6 @@ gemspec
 
 gem 'rb-fsevent', '~> 0.9.1'
 
-gem 'dotenv'
-
 # Development
 # gem 'locomotivecms_common', github: 'locomotivecms/common', ref: '257047b', require: false
 # gem 'locomotivecms_coal',   github: 'locomotivecms/coal',   ref: 'f4ff435', require: false
