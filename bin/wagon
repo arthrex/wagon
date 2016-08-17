@@ -8,5 +8,7 @@ $stdout.sync = true
 
 require 'locomotive/wagon'
 require 'locomotive/wagon/cli'
+require 'dotenv'
+Dotenv.load
 
 Locomotive::Wagon::CLI::Main.start
